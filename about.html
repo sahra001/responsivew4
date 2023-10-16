@@ -11,61 +11,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Quicksand:wght@600;700&display=swap"
-        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49f37888d4.js" crossorigin="anonymous"></script>
     <title>Artist Sahra Sarwari</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/" title="Homepage"> Sahra Sarwari</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html" tilte="Homepage">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html" title="About Sahra Sarwari">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" title="Contact Sahra Sarwari">Contact me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <h1 class="text-center">Artist Sahra Sarwari</h1>
-    <h3 class="text-center">Here you can see some of the artworks</h3>
-    <br />
-    <br />
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6 ">
-                <img src="images/drawing.PNG " alt="Eye drawing " class="img-fluid rounded" />
-            </div>
-            <div class="col-sm-6 ">
-                <img src="images/paint1.PNG" alt="madinah drawing " class="img-fluid rounded " />
-            </div>
-        </div>
+        <nav class="d-flex justify-content-between">
+            <a href="/">
+                <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+                <img src="images/logo.png" class="logo d-block d-md-none" alt="" />
+            </a>
+            <ul>
+                <li class="active">
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"> About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <h1 class="text-center">Artist Sahra Sarwari</h1>
+        <h3 class="text-center">Here you can see some of the artworks</h3>
         <br />
-        <div class="row">
-            <div class="col-sm-6 ">
-                <img src="images/peace.PNG" alt="peace  " class="img-fluid rounded" />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <img src="images/drawing.PNG " alt="Eye drawing " class="img-fluid rounded" />
+                </div>
+                <div class="col-sm-6 ">
+                    <img src="images/paint1.PNG" alt="madinah drawing " class="img-fluid rounded " />
+                </div>
             </div>
-            <div class="col-sm-6 ">
-                <img src="images/spring.PNG" alt="spring  " class="img-fluid rounded " />
+            <br />
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <img src="images/peace.PNG" alt="peace  " class="img-fluid rounded" />
+                </div>
+                <div class="col-sm-6 ">
+                    <img src="images/spring.PNG" alt="spring  " class="img-fluid rounded " />
+                </div>
             </div>
         </div>
     </div>
