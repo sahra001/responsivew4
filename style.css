@@ -1,5 +1,5 @@
 body {
-  margin: 100px 0;
+  background-color: #f9f7fe;
 }
 h1,
 h4 {
@@ -15,8 +15,11 @@ h3 {
   font-family: "Quicksand", sans-serif;
 }
 nav {
-  margin-top: -70px;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
@@ -43,5 +46,31 @@ nav li.active a {
 .logo {
   max-width: 50px;
 }
-span{
-  color:#ffb74d;}
+h2,
+h1 {
+  color: #1e5f6c;
+}
+span {
+  color: #1e5f6c;
+}
+.icon {
+  font-size: 40px;
+  margin: 0 20px;
+  padding-top: 10px;
+  color: black;
+}
+.myemail {
+  text-decoration: none;
+  color: #1e5f6c;
+}
+footer {
+  margin-top: 40px;
+  background-color: white;
+  padding: 10px;
+}
+footer .icon:hover {
+  color: #1e5f6c;
+}
+.homeimg {
+  margin-left: 100px;
+}
